@@ -1,0 +1,29 @@
+{
+   "name": "eisenhower-matrix-app",
+   "version": "0.0.0",
+   "description": "Kodex - Eisenhower Matrix - Backend",
+   "main": "index.js",
+   "repository": "git@github.com:LucasKodex/eisenhower-matrix-app.git",
+   "author": "Lucas Gonçalves Cordeiro <lucas.kodex.dev@gmail.com>",
+   "license": "SEE LICENSE IN LICENSE",
+   "private": false,
+   "dependencies": {
+      "bcrypt": "^5.1.1",
+      "dotenv": "^16.4.7",
+      "express": "^4.21.2",
+      "reflect-metadata": "^0.2.2",
+      "sqlite3": "^5.1.7",
+      "typeorm": "^0.3.20"
+   },
+   "devDependencies": {
+      "@types/express": "^5.0.0",
+      "@types/node": "^22.10.2",
+      "@types/sqlite3": "^3.1.11",
+      "ts-node": "^10.9.2",
+      "typescript": "^5.7.2"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts",
+      "typeorm": "typeorm-ts-node-commonjs"
+   }
+}
